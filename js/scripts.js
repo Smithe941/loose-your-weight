@@ -31,7 +31,7 @@ function groupTargets(groupVal) {
 function removeGroupTargets() {
   $('.targets p').each(function( index, element ) {
       $(element).css('border-bottom', 'none')
-      $(element).css('padding-bottom', 'none')
+      $(element).css('padding-bottom', 'unset')
   })
 }
 
