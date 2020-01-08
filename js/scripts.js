@@ -60,6 +60,7 @@ $("select[name='group']").change(function() {
 
 $( "[data-field='add']" ).click(function() {
   $('.input-fields').append(' <input type="text"> ')
+  $('.input-fields input').last().focus()
 });
 
 $( "[data-field='remove']" ).click(function() {
