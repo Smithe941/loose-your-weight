@@ -1,0 +1,39 @@
+.input-fields {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-fields input {
+  margin: 5px;
+  border-radius: 5px;
+  padding: 3px;
+  width: -webkit-fill-available;
+  font-size: 1em;
+}
+
+.separator {
+  border: 1px solid black;
+  margin: 20px 0px;
+}
+
+.targets p {
+  font-size: 1.5em;
+  font-weight: bold;
+}
+
+select[name='group'] {
+  display: none;
+  float: right;
+  width: 33%;
+  padding: 7px;
+}
+
+.buttons {
+  display: flex;
+  flex-direction: row;
+}
+
+.buttons button {
+  width: -webkit-fill-available;
+  padding: 7px;
+}
