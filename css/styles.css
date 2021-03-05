@@ -1,39 +1,74 @@
-.input-fields {
-  display: flex;
-  flex-direction: column;
+body {
+  background: #191919;
 }
 
-.input-fields input {
-  margin: 5px;
-  border-radius: 5px;
-  padding: 3px;
-  width: -webkit-fill-available;
-  font-size: 1em;
+h1 {
+  text-align: center;
+  color: orange;
 }
 
-.separator {
-  border: 1px solid black;
-  margin: 20px 0px;
-}
-
-.targets p {
-  font-size: 1.5em;
-  font-weight: bold;
-}
-
-select[name='group'] {
-  display: none;
-  float: right;
-  width: 33%;
-  padding: 7px;
-}
-
-.buttons {
+.row {
   display: flex;
   flex-direction: row;
+  gap: 20px;
 }
 
-.buttons button {
-  width: -webkit-fill-available;
-  padding: 7px;
+.column {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+input {
+  width: 80%;
+  background: #555555;
+  outline: none;
+  height: 50px;
+  font-size: 34px;
+  border-radius: 5px;
+  color: orange;
+  text-align: center;
+}
+
+
+button {
+  background: linear-gradient(gold, orange);
+  height: 50px;
+  border-radius: 5px;
+  width: 90%;
+  display: block;
+  margin: 0 auto;
+  color: rgb(84 84 84);
+  font-size: 30px;
+  font-weight: bold;
+  outline: none;
+}
+
+button:active {
+  background: orange;
+}
+
+p {
+  text-align: center;
+  color: #8b8b8b;
+}
+
+.result {
+  display: none;
+}
+
+.result .column p {
+  color: orange;
+  font-size: 40px;
+  margin: 0;
+}
+
+.result > p {
+  font-size: 32px;
+  margin: 0;
+}
+
+.result .row {
+  gap: 50px;
 }
